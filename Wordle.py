@@ -18,10 +18,10 @@ for lletra in paraula_escollida:
 print(paraula_enigma)
 #faig uns intents
 while intents !=6:
-    paraules_encertades=0 #poso aqui la variable comptalletres perque així es reinicia a 0 per cada iteració
-    for i in range(5): #abanç de demanar la paraula, creo aquests bucle perque neteigi les O de l'ultim intent, prque de lo contrari, el jugador no sabra a on hi han les X i es perdra
+    paraules_encertades=0 #Poso aquí la variable comptalletres perquè així es reinicia a 0 per a cada iteració
+    for i in range(5):  # Abans de demanar la paraula, creo aquest bucle perquè netegi les "O" de l'últim intent, de lo contrari, el jugador no sabrà on hi ha les "X" i es perdrà.
         if paraula_enigma[i] == "O": 
-            #no borro totes les lletres per poder donar una pista(com en un ahorcado)
+            #no esborro totes les lletres per poder donar una pista(com en un ahorcado)
             paraula_enigma[i] = "X"  
 
     escullir=input(f"Intent numero: {intents+1}") #l'usuari posa una paraula
