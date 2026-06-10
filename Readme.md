@@ -11,3 +11,7 @@ hi han 6 intents, en cas de no adivinar la paraula, sortira al final del joc
 per guanyar, has de posar si o si tota la paraula en l'intent
 
 ⚠️!Disclaimer!:en els comentaris poden haber-hi faltes d'ortografia 
+
+------------------------------------------------------------------------
+Fet amb Python 3.14.5
+------------------------------------------------------------------------
