@@ -10,8 +10,6 @@ Hi ha 6 intents. En cas de no endevinar la paraula, sortirà al final del joc.
 
 Per guanyar, has de posar sí o sí tota la paraula en l'intent.
 
-⚠️!Disclaimer!:en els comentaris poden haber-hi faltes d'ortografia 
-
 ------------------------------------------------------------------------
 Fet amb Python 3.14.5
 ------------------------------------------------------------------------
